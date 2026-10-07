@@ -1,6 +1,9 @@
 # Sistema de Gestión de Tareas con API y Base de Datos
 
-Proyecto académico desarrollado en Flask y SQLite para la materia Programación sobre Redes de la Tecnicatura Superior en Desarrollo de Software del IFTS 29.
+Proyecto desarrollado en Flask y SQLite para la materia Programación sobre Redes de la Tecnicatura Superior en Desarrollo de Software del IFTS 29.
+
+Para acceder al repositorio completo del proyecto haciendo clic en el siguiente enlace:
+[Repositorio en GitHub - PFO2](https://github.com/emilianog4/PFO2---EMILIANO-GUTIERREZ)
 
 ## Requisitos Previos
 
