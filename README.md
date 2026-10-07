@@ -31,7 +31,7 @@ Disponibles para Probar usando por ej Postman o Thunder Client
 - GET /tareas: Muestra la página HTML de bienvenida en el navegador.
   ![GET tareas](<img/GET tareas.png>)
 - **¿Por qué hashear contraseñas?**
-  - _Respuesta:_ Las contraseñas nunca deben guardarse en texto plano en la base de datos[cite: 1]. Si un atacante logra acceder a la base de datos, vería las contraseñas reales de todos los usuarios, comprometiendo su seguridad en otros servicios. Al aplicar un _hash_ (una función matemática unidireccional con herramientas como Werkzeug), se almacena una cadena codificada imposible de revertir a su forma original, protegiendo la privacidad de los usuarios incluso ante vulnerabilidades de filtración de datos.
+  - _Respuesta:_ Las contraseñas nunca deben guardarse en texto plano en la base de datos. Si un atacante logra acceder a la base de datos, vería las contraseñas reales de todos los usuarios, comprometiendo su seguridad en otros servicios. Al aplicar un _hash_ (una función matemática unidireccional con herramientas como Werkzeug), se almacena una cadena codificada imposible de revertir a su forma original, protegiendo la privacidad de los usuarios incluso ante vulnerabilidades de filtración de datos.
 
 - **Ventajas de usar SQLite en este proyecto:**
   - _Respuesta:_ SQLite es una base de datos liviana basada en un único archivo local (`database.db`), lo que significa que no requiere instalar ni configurar servidores complejos (como MySQL o PostgreSQL). Es ideal para proyectos académicos, prototipos y aplicaciones de menor escala porque es rápida, fácil de integrar con Python mediante su librería nativa `sqlite3`, y facilita la portabilidad de todo el proyecto.
